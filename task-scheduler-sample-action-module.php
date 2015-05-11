@@ -15,7 +15,6 @@ function loadTaskSchedulerSampleActionModule() {
     
     // Register a custom action module.
     include( dirname( __FILE__ ) . '/module/TaskScheduler_SampleActionModule.php' );
-    include( dirname( __FILE__ ) . '/module/admin/TaskScheduler_Action_Sample_Wizard.php' );
     new TaskScheduler_SampleActionModule;
     
 }
